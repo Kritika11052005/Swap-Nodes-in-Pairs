@@ -8,7 +8,7 @@ ListNode() {}
 ListNode(int val) { this.val = val; }
 ListNode(int val, ListNode next) { this.val = val; this.next = next; }
 }
-
+//Solution starts from here----->
 class Solution {
     public ListNode swapPairs(ListNode head) {// function swapPairs with return type of a node and input parameter as head of the linked list.
         ListNode original_pointer = new ListNode(0);// A dummy node is formed with value 0.
